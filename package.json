@@ -1,0 +1,27 @@
+{
+  "name": "twitter-to-discord",
+  "version": "1.1.0",
+  "description": "Monitors a user's twitter stream and sends it as an embed to a Discord server through a channel webhook.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "discord",
+    "discord.com",
+    "twitter",
+    "webhook",
+    "embed"
+  ],
+  "author": "Kit Pickles",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "dotenv": "^8.2.0",
+    "form-data": "^3.0.0",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.32",
+    "node-fetch": "^2.6.1",
+    "twit": "^2.2.11"
+  }
+}
