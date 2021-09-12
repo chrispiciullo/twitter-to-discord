@@ -4,7 +4,7 @@ Monitors a user's twitter stream and sends it as an embed to a Discord server th
 # Installation
 Clone this repository and run the following command to install the necessary packages.
 ```
-npm install
+npm install or yarn install
 ```
 # Usage
 Create a .env file in the root folder with the following info. I know some info may seem redundant, but it is to ensure nothing is hard-coded. Make sure to change it to your information:
